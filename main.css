@@ -176,5 +176,5 @@ nav a:hover {
   background: none; /* Removes the background */
   border: none; /* Removes the border */
   font-size: 0.8em; /* Makes the subtitle 80% the size of the title */
-  margin-left: 10ch; /* Adds a space of ten characters between the title and the subtitle */
+  margin-left: 3ch; /* Adds a space of ten characters between the title and the subtitle */
 }
