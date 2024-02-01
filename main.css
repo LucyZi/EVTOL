@@ -167,9 +167,12 @@ nav a:hover {
 }
 
 
-span {
-    background-color: yellow; /* 仅用于测试，确保文本可见 */
-    border: 1px solid red; /* 仅用于测试，确保文本可见 */
+.title-container {
+  display: flex;
+  align-items: baseline; /* Aligns the text to the base of the title */
 }
 
-
+.subtitle {
+  font-size: 0.8em; /* Makes the subtitle 80% the size of the title */
+  margin-left: 10px; /* Adds some space between the title and the subtitle */
+}
