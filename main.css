@@ -201,17 +201,17 @@ nav a:hover {
 
 .video-section {
     width: 100%;
-    padding: 20px 0;
-    background-color: #ffffff; /* Change this to your desired color */
+    padding: 3ch 0; /* Change padding to 3ch */
+    background-color: #ffffff;
 }
 
 .video-container {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 3ch; /* Change gap to 3ch */
 }
 
 .video-container iframe {
-    width: calc((100% - 40px) / 3); /* Subtract the total gap space and divide by 3 */
+    width: calc((100% - 6ch) / 3); /* Subtract the total gap space (2 * 3ch) and divide by 3 */
     height: auto;
 }
