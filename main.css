@@ -215,3 +215,26 @@ nav a:hover {
     width: calc((100% - 6ch) / 3); /* Subtract the total gap space (2 * 3ch) and divide by 3 */
     height: auto;
 }
+
+
+.image-section {
+    width: 100%;
+    padding: 3ch 0;
+    background-color: #ffffff;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3ch;
+}
+
+.image-container img {
+    width: calc((100% - 6ch) / 3);
+    height: auto;
+}
+
+.image-container p {
+    text-align: center;
+}
