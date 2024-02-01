@@ -173,6 +173,8 @@ nav a:hover {
 }
 
 .subtitle {
+  background: none; /* Removes the background */
+  border: none; /* Removes the border */
   font-size: 0.8em; /* Makes the subtitle 80% the size of the title */
-  margin-left: 10px; /* Adds some space between the title and the subtitle */
+  margin-left: 5ch; /* Adds a space of five characters between the title and the subtitle */
 }
