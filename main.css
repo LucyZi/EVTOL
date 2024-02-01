@@ -176,6 +176,5 @@ nav a:hover {
   background: none; /* Removes the background */
   border: none; /* Removes the border */
   font-size: 20px; /* Set the font size to 20 pixels */
-  /*font-weight: bold;  Make the text bold */
   margin-left: 3ch; /* Adds a space of ten characters between the title and the subtitle */
 }
