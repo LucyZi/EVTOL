@@ -166,3 +166,9 @@ nav a:hover {
     color: #d6d7ff;
 }
 
+#pioneering-subtitle {
+    font-family: 'Roboto', sans-serif; /* Using Roboto for variety, but you can choose any */
+    font-size: 0.9em; /* Making the font smaller; adjust as needed */
+    color: #000000; /* Changing the color to black */
+}
+
