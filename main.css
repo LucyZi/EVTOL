@@ -166,9 +166,28 @@ nav a:hover {
     color: #d6d7ff;
 }
 
-#pioneering-subtitle {
-    font-family: 'Roboto', sans-serif; /* Using Roboto for variety, but you can choose any */
-    font-size: 0.9em; /* Making the font smaller; adjust as needed */
-    color: #000000; /* Changing the color to black */
+
+
+
+
+.titles-container {
+    display: flex;
+    align-items: center; /* 确保标题在垂直方向上居中对齐 */
+    justify-content: start; /* 从容器的开始位置对齐元素 */
+    gap: 20px; /* 标题之间的间隔，根据需要调整 */
 }
+
+h1 {
+    margin: 0;
+    font-family: 'Rubik', sans-serif; /* 可以根据需要调整字体 */
+    /* 根据需要添加更多样式 */
+}
+
+#pioneering-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    color: #000000;
+    margin: 0; /* 移除默认的margin来更好地控制布局 */
+}
+
 
