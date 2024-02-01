@@ -218,12 +218,14 @@ nav a:hover {
 
 
 .image-section {
+    display: flex; /* Add this line */
     width: 100%;
     padding: 3ch 0;
     background-color: #ffffff;
 }
 
 .image-container {
+    flex: 1; /* Add this line */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
