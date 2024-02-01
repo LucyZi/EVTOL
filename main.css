@@ -198,3 +198,19 @@ nav a:hover {
     font-size: 1.5rem; /* 1号小于3xl */
     color: #8A33B3;
 }
+
+.video-section {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.video-container iframe {
+    width: calc((100% - 40px) / 3); /* Subtract the total gap space and divide by 3 */
+    height: auto;
+}
