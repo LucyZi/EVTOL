@@ -202,6 +202,7 @@ nav a:hover {
 .video-section {
     width: 100%;
     padding: 20px 0;
+    background-color: #ffffff; /* Change this to your desired color */
 }
 
 .video-container {
