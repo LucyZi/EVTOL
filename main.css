@@ -179,3 +179,11 @@ nav a:hover {
   margin-left: 3ch; /* Adds a space of ten characters between the title and the subtitle */
   color: #000000;
 }
+
+.p-long-text {
+    text-align: center;
+    color: white;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+    font-size: 8px;
+}
