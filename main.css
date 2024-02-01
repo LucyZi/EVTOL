@@ -231,7 +231,7 @@ nav a:hover {
 }
 
 .image-container img {
-    width: calc((100% - 6ch) / 3);
+    width: 100%; /* Change width to 100% */
     height: auto;
 }
 
