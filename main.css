@@ -160,7 +160,10 @@ nav a:hover {
 .section--contact {
     min-height: 400px;
     background-image: url('./assets/Din\ widdie.jpg');
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
 
 .contact-h2 {
     color: #d6d7ff;
@@ -183,10 +186,11 @@ nav a:hover {
 .p-long-text {
     text-align: center;
     color: white;
-    line-height: 1.6; /* Increase line-height */
+    line-height: 1.7; /* Increase line-height */
     margin-bottom: 1rem;
     font-size: 14px; /* Increase font size */
     width: 80%; /* Set a width */
     margin-left: auto; /* Center the text block */
     margin-right: auto;
 }
+
