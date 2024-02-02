@@ -180,6 +180,12 @@ nav a:hover {
   color: #000000;
 }
 
+@media screen and (max-width: 600px) {
+    .subtitle {
+        font-size: 14px;
+    }
+}
+
 .p-long-text {
     text-align: center;
     color: white;
