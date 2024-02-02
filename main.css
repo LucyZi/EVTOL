@@ -204,7 +204,7 @@ nav a:hover {
 .video-section {
     display: flex; /* Add this line */
     width: 100%;
-    padding: 3ch 0;
+    padding: 1ch 0;
     background-color: #ffffff;
 }
 
@@ -233,12 +233,17 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center; /* Add this line */
     gap: 3ch;
 }
 
 .image-container img {
     width: 100%;
     height: auto;
+}
+
+.side-img {
+    width: 80%; /* Change this to the width you want */
 }
 
 .middle-img {
