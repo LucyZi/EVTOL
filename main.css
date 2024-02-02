@@ -204,7 +204,7 @@ nav a:hover {
 
     #contact-section,
     .contact-h2 {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .p-long-text {
@@ -266,11 +266,11 @@ nav a:hover {
 
 .middle-img {
     width: 110%; /* Increase the width of the middle image */
-    margin: 3ch; /* Add margin to the middle image */
+    margin: 1ch; /* Add margin to the middle image */
 }
 
 .image-container p {
     text-align: center;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: bold;
 }
