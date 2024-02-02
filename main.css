@@ -155,12 +155,10 @@ nav a:hover {
 
 
 .section--contact {
-    min-height: 400px;
-    background-image: url('./assets/Din\ widdie.jpg');
+    background-image: url('./assets/pic2.jpg');
     padding-top: 100px;
     padding-bottom: 50px;
 }
-
 
 .contact-h2 {
     color: #d6d7ff;
@@ -197,16 +195,21 @@ nav a:hover {
     margin-right: auto;
 }
 
-
 @media screen and (max-width: 600px) {
-    #contact-section {
-        font-size: 11px;
+    .section--contact {
+        padding-top: 50px;
+        padding-bottom: 25px;
     }
-}
 
-@media screen and (max-width: 600px) {
+    #contact-section,
+    .contact-h2 {
+        font-size: 14px;
+    }
+
     .p-long-text {
-        font-size: 8px;
+        font-size: 10px;
+        line-height: 1.2;
+        margin-bottom: 0.5rem;
     }
 }
 
