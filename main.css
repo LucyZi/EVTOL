@@ -191,6 +191,22 @@ nav a:hover {
     margin-right: auto;
 }
 
+
+@media screen and (max-width: 600px) {
+    #contact-section {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .p-long-text {
+        font-size: 12px;
+    }
+}
+
+
+
+
 .modified-title {
     font-size: 1.5rem; /* 1号小于3xl */
     color: #8A33B3;
