@@ -262,3 +262,9 @@ nav a:hover {
 .EPTA-color {
     color: #2c348c; /* Change to the color you want */
 }
+
+/* Products Section */
+.section--products h2 {
+    margin-left: 80px;
+    padding:0;
+}
