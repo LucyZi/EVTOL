@@ -243,6 +243,10 @@ nav a:hover {
     height: 100%;
 }
 
+.section--products {
+    margin-bottom: 75.6px; /* Add this line to set the bottom margin of the section */
+}
+
 .image-section {
     display: flex;
     width: 100%;
@@ -254,19 +258,19 @@ nav a:hover {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Change this line to center the content vertically */
+    justify-content: center;
     align-items: center;
-    gap: 3ch;
+    gap: 1ch;
 }
 
 .image-container img {
-    width: 80%; /* Reduce the width of all images */
+    width: 80%;
     height: auto;
 }
 
 .middle-img {
-    width: 110%; /* Increase the width of the middle image */
-    margin: 1ch; /* Add margin to the middle image */
+    width: 110%;
+    margin: 1ch;
 }
 
 .image-container p {
