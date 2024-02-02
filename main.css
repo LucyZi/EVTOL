@@ -153,18 +153,6 @@ nav a:hover {
 }
 
 
-
-.section--contact {
-    background-image: url('./assets/pic2.jpg');
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-.contact-h2 {
-    color: #d6d7ff;
-}
-
-
 .title-container {
   display: flex;
   align-items: baseline; /* Aligns the text to the base of the title */
@@ -184,6 +172,18 @@ nav a:hover {
     }
 }
 
+
+.section--contact {
+    min-height: 400px;
+    background-image: url('./assets/pic2.jpg');
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.contact-h2 {
+    color: #d6d7ff;
+}
+
 .p-long-text {
     text-align: center;
     color: white;
@@ -197,6 +197,7 @@ nav a:hover {
 
 @media screen and (max-width: 600px) {
     .section--contact {
+        min-height: auto;
         padding-top: 50px;
         padding-bottom: 25px;
     }
@@ -212,8 +213,6 @@ nav a:hover {
         margin-bottom: 0.5rem;
     }
 }
-
-
 
 
 .modified-title {
