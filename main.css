@@ -124,9 +124,6 @@ nav a:hover {
     /* 50% width with gap */
 }
 
-.section--products {
-    height: 600px;
-}
 
 .section--p1 {
     background-image: url("./assets/Truss\ I.jpg");
@@ -199,32 +196,19 @@ nav a:hover {
     color: #8A33B3;
 }
 
+.section--products {
+    padding-bottom: 3ch; /* Add this line */
+    height: auto; /* Change height to auto */
+}
+
 .video-section {
-    width: 100%;
-    padding: 3ch 0; /* Change padding to 3ch */
-    background-color: #ffffff;
-}
-
-.video-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 3ch; /* Change gap to 3ch */
-}
-
-.video-container iframe {
-    width: calc((100% - 6ch) / 3); /* Subtract the total gap space (2 * 3ch) and divide by 3 */
-    height: auto;
-}
-
-
-.image-section {
     display: flex; /* Add this line */
     width: 100%;
     padding: 3ch 0;
     background-color: #ffffff;
 }
 
-.image-container {
+.video-container {
     flex: 1; /* Add this line */
     display: flex;
     flex-direction: column;
@@ -232,8 +216,28 @@ nav a:hover {
     gap: 3ch;
 }
 
-.image-container img {
+.video-container iframe {
     width: 100%; /* Change width to 100% */
+    height: auto;
+}
+
+.image-section {
+    display: flex;
+    width: 100%;
+    padding: 3ch 0;
+    background-color: #ffffff;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3ch;
+}
+
+.image-container img {
+    width: 100%;
     height: auto;
 }
 
