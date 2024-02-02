@@ -198,23 +198,21 @@ nav a:hover {
 @media screen and (max-width: 600px) {
     .section--contact {
         min-height: auto;
-        padding-top: 50px;
-        padding-bottom: 25px;
+        padding-top: 30px;
+        padding-bottom: 15px;
     }
 
     #contact-section,
     .contact-h2 {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .p-long-text {
-        font-size: 10px;
+        font-size: 8px;
         line-height: 1.2;
         margin-bottom: 0.5rem;
     }
 }
-
-
 .modified-title {
     font-size: 1.5rem; /* 1号小于3xl */
     color: #8A33B3;
