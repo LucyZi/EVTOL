@@ -189,7 +189,7 @@ nav a:hover {
 .p-long-text {
     text-align: center;
     color: white;
-    line-height: 1.6; /* Increase line-height */
+    line-height: 1.5; /* Increase line-height */
     margin-bottom: 1rem;
     font-size: 13px; /* Increase font size */
     width: 80%; /* Set a width */
@@ -200,13 +200,13 @@ nav a:hover {
 
 @media screen and (max-width: 600px) {
     #contact-section {
-        font-size: 14px;
+        font-size: 11px;
     }
 }
 
 @media screen and (max-width: 600px) {
     .p-long-text {
-        font-size: 12px;
+        font-size: 8px;
     }
 }
 
