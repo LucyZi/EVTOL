@@ -241,6 +241,10 @@ nav a:hover {
     height: auto;
 }
 
+.middle-img {
+    width: 110%; /* Change this to the width you want */
+}
+
 .image-container p {
     text-align: center;
     font-size: 10px;
