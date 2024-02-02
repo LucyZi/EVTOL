@@ -211,7 +211,7 @@ nav a:hover {
 .video-container {
     flex: 1; /* Add this line */
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Change this line */
     justify-content: space-between;
     gap: 3ch;
 }
