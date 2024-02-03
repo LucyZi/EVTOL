@@ -164,6 +164,7 @@ nav a:hover {
   font-size: 20px; /* Set the font size to 20 pixels */
   margin-left: 3ch; /* Adds a space of ten characters between the title and the subtitle */
   color: #000000;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
@@ -219,43 +220,7 @@ nav a:hover {
 }
 
 
-.video-section, .image-section {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: #ffffff;
-}
 
-.video-container, .image-container {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5ch;
-}
-
-.video-container iframe {
-    aspect-ratio: 16 / 9; /* Adjust according to your video's aspect ratio */
-    width: 80%;
-    height: auto;
-    margin: 0.5ch;
-}
-
-.image-container img {
-    width: 80%;
-    height: auto;
-    margin: 0.5ch;
-}
-
-.section--products {
-    height: auto; 
-}
-
-.middle-img {
-    width: 80%;
-    margin: 0.5ch;
-}
 
 
 
@@ -263,8 +228,51 @@ nav a:hover {
     color: #2c348c; /* Change to the color you want */
 }
 
-/* Products Section */
-.section--products h2 {
-    margin-left: 80px;
-    padding:0;
+
+
+
+.video-section, .image-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #ffffff;
 }
+
+.video-container{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 0.2ch;
+    justify-content: space-between; 
+    padding-top: 0;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 0.2ch;
+    justify-content: space-between;
+    margin-top: 5ch;
+    margin-bottom: 5ch;
+}
+
+.video-container iframe{
+    width: 100%;
+    height: auto;
+    margin: 0.5ch;
+    aspect-ratio: 1;
+}
+
+.image-container img {
+    width: 32%; 
+    max-width: 100%; 
+    height: auto;
+
+}
+
+
+
+
+
+
