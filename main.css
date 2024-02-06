@@ -202,11 +202,11 @@ nav a:hover {
     }
 
     .p-long-text {
-    font-size: 7px; /* 或者其他你想设置的值 */
+    font-size: 8px; /* 或者其他你想设置的值 */
     }
     .text-lg p,
     .border-right p {
-        font-size: 9px; /* 你可以根据需要调整这个值 */
+        font-size: 10px; /* 你可以根据需要调整这个值 */
     }
 }
 
@@ -307,21 +307,6 @@ nav a:hover {
 
 }
 
-@media (max-width: 600px) {
-    .video-container {
-        flex-direction: column;
-        height: auto; /* 添加这里 */
-    }
-
-    .image-container {
-        flex-direction: column;
-    }
-
-    .video-container iframe,
-    .image-container img {
-        width: 100%; /* 使视频和图片宽度适应其容器宽度 */
-    }
-}
 
 @media (max-width: 600px) {
     .video-container {
@@ -346,7 +331,7 @@ nav a:hover {
 
 
 @media (max-width: 600px) {
-    .image {
+    .image img {
         margin-top: 0; /* 添加这里 */
     }
 }
