@@ -196,24 +196,25 @@ nav a:hover {
     margin-right: auto;
 }
 
-@media screen and (max-width: 600px) {
-    .section--contact {
-        min-height: auto;
-        padding-top: 30px;
-        padding-bottom: 15px;
+@media (max-width: 600px) {
+    #contact-section {
+        font-size: 7px;
     }
-
-    #contact-section,
-    .contact-h2 {
-        font-size: 8px;
+    .contact-h2{
+        font-size: 8px; /* 或者其他你想设置的值 */
     }
 
     .p-long-text {
-        font-size: 8px;
-        line-height: 1.2;
-        margin-bottom: 0.5rem;
+    font-size: 6px; /* 或者其他你想设置的值 */
+    }
+    .text-lg p,
+    .border-right p {
+        font-size: 7px; /* 你可以根据需要调整这个值 */
     }
 }
+
+
+
 .modified-title {
     font-size: 1.5rem; /* 1号小于3xl */
     color: #8A33B3;
