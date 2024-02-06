@@ -228,13 +228,23 @@ nav a:hover {
     color: #2c348c; 
 }
 
+.title-EPTA-color {
+    color: #2c348c; 
+}
 
+
+
+@media (max-width: 600px) {
+    .title-EPTA-color {
+        font-size: 12px; 
+    }
+}
 
 @media (max-width: 600px) {
     .EPTA-color,
     .highlight-title,
     .font-bold.my-4.text-2xl.text-left,{
-        font-size: 12px; 
+        font-size: 10px; 
     }
 }
 
@@ -249,11 +259,11 @@ nav a:hover {
 
 @media (max-width: 600px) {
     .section--highlights h3 {
-        font-size: 12px; 
+        font-size: 15px; 
     }
 
     .section--highlights p {
-        font-size: 10px; 
+        font-size: 13px; 
     }
 }
 
@@ -300,7 +310,11 @@ nav a:hover {
 }
 
 @media (max-width: 600px) {
-    .video-container,
+    .video-container {
+        flex-direction: column;
+        height: auto; /* 添加这里 */
+    }
+
     .image-container {
         flex-direction: column;
     }
@@ -310,3 +324,8 @@ nav a:hover {
         width: 100%; /* 使视频和图片宽度适应其容器宽度 */
     }
 }
+
+
+
+
+
