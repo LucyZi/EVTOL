@@ -197,19 +197,16 @@ nav a:hover {
 }
 
 @media (max-width: 600px) {
-    #contact-section {
-        font-size: 7px;
-    }
     .contact-h2{
         font-size: 8px; /* 或者其他你想设置的值 */
     }
 
     .p-long-text {
-    font-size: 6px; /* 或者其他你想设置的值 */
+    font-size: 7px; /* 或者其他你想设置的值 */
     }
     .text-lg p,
     .border-right p {
-        font-size: 7px; /* 你可以根据需要调整这个值 */
+        font-size: 9px; /* 你可以根据需要调整这个值 */
     }
 }
 
@@ -325,3 +322,34 @@ nav a:hover {
         width: 100%; /* 使视频和图片宽度适应其容器宽度 */
     }
 }
+
+@media (max-width: 600px) {
+    .video-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        margin: 0; /* 调整这个值来改变视频之间的间距 */
+    }
+
+    .image-container {
+        flex-direction: column;
+    }
+
+    .image-container img,
+    .video-container iframe {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .image {
+        margin-top: 0; /* 添加这里 */
+    }
+}
+
+
+
