@@ -312,11 +312,12 @@ nav a:hover {
     .video-container {
         flex-direction: column;
         height: auto;
+        gap: 0; /* 添加这里 */
     }
 
     .video-container iframe {
         width: 100%;
-        margin: 0; /* 调整这个值来改变视频之间的间距 */
+        margin: 0;
     }
 
     .image-container {
@@ -331,10 +332,13 @@ nav a:hover {
 
 
 @media (max-width: 600px) {
-    .image img {
+    .sm\\:w-1\\/3.sm\\:mx-auto.lg\\:block.mt-20 {
         margin-top: 0; /* 添加这里 */
     }
-}
 
+    .image img {
+        margin-top: 0;
+    }
+}
 
 
