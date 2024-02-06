@@ -249,11 +249,11 @@ nav a:hover {
 
 @media (max-width: 600px) {
     .section--highlights h3 {
-        font-size: 11px; 
+        font-size: 12px; 
     }
 
     .section--highlights p {
-        font-size: 9px; 
+        font-size: 10px; 
     }
 }
 
@@ -297,4 +297,16 @@ nav a:hover {
     max-width: 100%; /* 防止图片超出其容器宽度 */
     height: auto; /* 保持图片的原始宽高比 */
 
+}
+
+@media (max-width: 600px) {
+    .video-container,
+    .image-container {
+        flex-direction: column;
+    }
+
+    .video-container iframe,
+    .image-container img {
+        width: 100%; /* 使视频和图片宽度适应其容器宽度 */
+    }
 }
