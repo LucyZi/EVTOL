@@ -205,7 +205,7 @@ nav a:hover {
 
     #contact-section,
     .contact-h2 {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .p-long-text {
@@ -230,6 +230,32 @@ nav a:hover {
 
 
 
+@media (max-width: 600px) {
+    .EPTA-color,
+    .highlight-title,
+    .font-bold.my-4.text-2xl.text-left,{
+        font-size: 12px; 
+    }
+}
+
+.highlight-title {
+    margin-bottom: 35px; 
+    color: #2c348c; 
+}
+
+.font-bold.my-4.text-2xl.text-left {
+    margin-bottom: 35px;/
+}
+
+@media (max-width: 600px) {
+    .section--highlights h3 {
+        font-size: 11px; 
+    }
+
+    .section--highlights p {
+        font-size: 9px; 
+    }
+}
 
 .video-section, .image-section {
     display: flex;
@@ -244,7 +270,8 @@ nav a:hover {
     flex-direction: row;
     gap: 0.2ch;
     justify-content: space-between; 
-    padding-top: 0;
+    padding: 0;
+    height: 50vh;
 }
 
 .image-container {
@@ -253,20 +280,21 @@ nav a:hover {
     flex-direction: row;
     gap: 0.2ch;
     justify-content: space-between;
-    margin-top: 5ch;
-    margin-bottom: 5ch;
+    margin-top: 3ch;
+    margin-bottom: 3ch;
 }
 
-.video-container iframe{
+
+.video-container iframe {
     width: 100%;
-    height: auto;
+    height: 100%; /* 修改这里 */
     margin: 0.5ch;
     aspect-ratio: 1;
+    object-fit: contain; /* 添加这里 */
 }
-
 .image-container img {
-    width: 32%; 
-    max-width: 100%; 
-    height: auto; 
+    width: 32%; /* 使图片宽度适应其容器宽度 */
+    max-width: 100%; /* 防止图片超出其容器宽度 */
+    height: auto; /* 保持图片的原始宽高比 */
 
 }
