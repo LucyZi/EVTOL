@@ -160,6 +160,7 @@ nav a:hover {
 
 .title {
   color: #2c348c; /* Change to the color you want */
+  font-size: 25px;
 }
 
 .subtitle {
@@ -191,9 +192,7 @@ nav a:hover {
   padding-bottom: 50px;
 }
 
-.contact-h2 {
-  color: #d6d7ff;
-}
+
 
 .p-long-text {
   text-align: center;
@@ -207,6 +206,12 @@ nav a:hover {
 }
 
 
+.contact-info {
+  margin-top: 1.8ch;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
 @media screen and (max-width: 600px) {
   .section--contact {
     min-height: 400px;
@@ -216,18 +221,20 @@ nav a:hover {
 
   #contact-section,
   .contact-h2 {
-    font-size: 12px;
+    font-size: 11px;
+    color: #d6d7ff;
   }
 
   .p-long-text {
     font-size: 12px;
-    line-height: 1.7;
+    line-height: 1.5;
     margin-bottom: 0.5rem;
   }
 
   .contact-info {
-    font-size: 10px;
-    line-height: 2;
+    margin-top: 1ch;
+    font-size: 14px;
+    line-height: 1.3;
 
   }
   .video-container {
@@ -246,14 +253,6 @@ nav a:hover {
   }
 }
 
-.modified-title {
-  font-size: 1.5rem; /* 1号小于3xl */
-  color: #8a33b3;
-}
-
-.EPTA-color {
-  color: #2c348c; /* Change to the color you want */
-}
 
 .video-section,
 .image-section {
@@ -322,7 +321,20 @@ nav a:hover {
 
 @media screen and (max-width: 600px) {
   .section--highlights h3{
-    font-size: 17px;
-    line-height: 1.5;
+    font-size: 16.5x;
   }
+
+  .section--highlights p{
+    font-size: 15px;
+    line-height: 1.6;
+  }
+}
+
+.modified-title {
+  font-size: 1.5rem; /* 1号小于3xl */
+  color: #8a33b3;
+}
+
+.EPTA-color {
+  color: #2c348c; /* Change to the color you want */
 }
