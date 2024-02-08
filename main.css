@@ -316,7 +316,7 @@ nav a:hover {
 
 
 .section--highlights p {
-  line-height: 1.7; /* 你可以根据需要调整这个值 */
+  line-height: 1.7; 
 }
 
 @media screen and (max-width: 600px) {
@@ -336,5 +336,27 @@ nav a:hover {
 }
 
 .EPTA-color {
-  color: #2c348c; /* Change to the color you want */
+  color: #2c348c;
+}
+
+.about-info1 {
+  line-height: 1.8; 
+  margin-bottom: 20px;
+}
+
+.about-info2 {
+  line-height: 1.8; 
+}
+
+@media screen and (max-width: 600px) {
+  .about-info1 {
+    font-size: 15px;
+    line-height: 1.7; 
+    margin-bottom: 18px;
+  }
+  
+  .about-info2 {
+    font-size: 15px;
+    line-height: 1.7; 
+  }
 }
