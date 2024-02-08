@@ -158,18 +158,28 @@ nav a:hover {
   align-items: baseline; /* Aligns the text to the base of the title */
 }
 
+.title {
+  color: #2c348c; /* Change to the color you want */
+}
+
 .subtitle {
   background: none; /* Removes the background */
   border: none; /* Removes the border */
-  font-size: 20px; /* Set the font size to 20 pixels */
+  font-size: 17px; /* Set the font size to 20 pixels */
   margin-left: 3ch; /* Adds a space of ten characters between the title and the subtitle */
   color: #000000;
   font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
+  .title {
+    font-size: xl;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .subtitle {
-    font-size: 14px;
+    margin-left: 1.5ch;
   }
 }
 
@@ -187,12 +197,18 @@ nav a:hover {
 .p-long-text {
   text-align: center;
   color: white;
-  line-height: 1.5; /* Increase line-height */
+  line-height: 2; /* Increase line-height */
   margin-bottom: 1rem;
   font-size: 13px; /* Increase font size */
   width: 80%; /* Set a width */
   margin-left: auto; /* Center the text block */
   margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .p-long-text {
+    line-height: 1.5;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -295,4 +311,15 @@ nav a:hover {
 }
 .text-content-box {
   height: 20rem;
+}
+
+
+.section--highlights p {
+  line-height: 1.7; /* 你可以根据需要调整这个值 */
+}
+
+@media screen and (max-width: 600px) {
+  .section--highlights h3{
+    font-size: 17px;
+  }
 }
