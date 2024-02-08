@@ -179,6 +179,7 @@ nav a:hover {
 
 @media screen and (max-width: 600px) {
   .subtitle {
+    font-size: 15px;
     margin-left: 1.5ch;
   }
 }
@@ -205,11 +206,6 @@ nav a:hover {
   margin-right: auto;
 }
 
-@media screen and (max-width: 600px) {
-  .p-long-text {
-    line-height: 1.5;
-  }
-}
 
 @media screen and (max-width: 600px) {
   .section--contact {
@@ -225,8 +221,14 @@ nav a:hover {
 
   .p-long-text {
     font-size: 12px;
-    line-height: 1.2;
+    line-height: 1.7;
     margin-bottom: 0.5rem;
+  }
+
+  .contact-info {
+    font-size: 10px;
+    line-height: 2;
+
   }
   .video-container {
     display: block !important;
@@ -321,5 +323,6 @@ nav a:hover {
 @media screen and (max-width: 600px) {
   .section--highlights h3{
     font-size: 17px;
+    line-height: 1.5;
   }
 }
